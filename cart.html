@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="cart.html" class="active">Cart</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Your Shopping Cart</h1>
+        <div id="cart-container">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div id="cart-summary">
+            <div class="total">Total: ₹<span id="cart-total">0</span></div>
+            <button id="checkout-btn" class="checkout-button">Proceed to Checkout</button>
+            <button id="clear-cart-btn" class="clear-button">Clear Cart</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
